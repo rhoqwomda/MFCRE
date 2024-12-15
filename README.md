@@ -11,10 +11,10 @@ conda activate MFCRE
 single RTX 3090 GPU
 
 
-Dataset
+# Dataset
 https://github.com/TaoShi1998/MultiEMO
 
-Please place the dataset as follows:
+## Please place the dataset as follows:
 Dataset/IEMOCAP
 Dataset/MELD
 
@@ -25,8 +25,8 @@ pip install -r requirements.txt
 
 
 # Run the model
-IEMOCAP Dataset
+## IEMOCAP Dataset
 bash Train/TrainMultiEMO_IEMOCAP.sh
 
-MELD Dataset
+## MELD Dataset
 bash Train/TrainMultiEMO_MELD.sh
